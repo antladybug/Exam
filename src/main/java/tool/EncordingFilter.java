@@ -19,9 +19,9 @@ public class EncordingFilter implements Filter {
 		request.setCharacterEncoding( "UTF-8" );
 		response.setContentType( "text/html, charset = UTF-8" );
 		
-		System.out.println( "フィルタ前処理" );
+		System.out.println( "フィルタの前処理" );
 		chain.doFilter( request, response );
-		System.out.println( "フィルタ後処理" );
+		System.out.println( "フィルタの後処理" );
 	}
 	public void init( FilterConfig filterconfig ){}
 	public void destroy() {}
