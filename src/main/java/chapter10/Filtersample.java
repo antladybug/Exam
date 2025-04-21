@@ -12,6 +12,6 @@ import javax.servlet.http.HttpServletResponse;
 public class Filtersample  extends HttpServlet{
 	public void doGet ( HttpServletRequest request, HttpServletResponse responce
 	) throws ServletException, IOException{
-		System.out.println( "サーブレットの処理" );
+		System.out.println( "サーブレット処理" );
 	}
 }
